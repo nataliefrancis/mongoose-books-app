@@ -3,8 +3,7 @@ var mongoose = require('mongoose'),
 
 var AuthorSchema = new Schema({
   title: String,
-  alive: Boolean,
-  image: String
+  alive: Boolean
 });
 
 var Author = mongoose.model('Author', AuthorSchema);
